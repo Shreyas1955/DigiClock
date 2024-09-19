@@ -1,0 +1,121 @@
+*{
+  font-size: 110%;
+  
+}
+.realtime{
+  font-size: 100px;
+}
+.span{
+  font-size: 120%;
+}
+body{
+  background-color: #d5adc8;
+  background-image: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+}
+.digiclock{
+  
+  background-color: black;
+  color: #fff;
+  width: 820px;
+  margin-top: 250px;
+  font-size: 100px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  font-family: monospace;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  height: 180px;
+}
+.btns{
+  
+  border-radius: 10px;
+  color: white;
+
+}
+button {
+  background: none;
+  border: none;
+  padding: 1em 1.5em;
+  font-size: .875rem;
+  color: #636269;
+  font-family: inherit;
+  background-color: #e0e5ec;
+  cursor: pointer;
+  box-shadow: 8px 8px 16px rgba(163,177,198,0.6),
+             -8px -8px 16px rgba(255,255,255, 0.5);
+}
+button:hover{
+  background-color: darken(#e0e5ec, 2%);
+}
+.stopwatch{
+  background-color: black;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  font-family: monospace;
+  font-family: 'Orbitron', sans-serif;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+
+}
+.stopwatch .span{
+  margin-top: 80px;
+
+}
+.world{
+  background-color: black;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  font-family: monospace;
+  font-family:sans-serif;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  font-size: 20px;
+
+}
+select{
+  width: 500px;
+  font-weight: lighter;
+  margin-bottom: 80px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+strong{
+  color: red;
+
+}
+.countdown{
+  background-color: black;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  font-family: monospace;
+  font-family:sans-serif;
+  width: 420px;
+  height: 280px;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 100px;
+}
+.alarm{
+  font-size: 20px;
+  background-color: black;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  font-family: monospace;
+  font-family:sans-serif;
+  width: 450px;
+  height: 350px;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 100px;
+}
+.alarm input{
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: black;
+  margin-left: 10px;
+  color: white;
+}
